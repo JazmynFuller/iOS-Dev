@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81575122203A24510051CCB4 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81575121203A24510051CCB4 /* LogInVC.swift */; };
+		81575124203A24710051CCB4 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81575123203A24710051CCB4 /* CreateAccountVC.swift */; };
+		817C9A3420379BA3008DD5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C9A3320379BA3008DD5D5 /* AppDelegate.swift */; };
+		817C9A3920379BA3008DD5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817C9A3720379BA3008DD5D5 /* Main.storyboard */; };
+		817C9A3B20379BA3008DD5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817C9A3A20379BA3008DD5D5 /* Assets.xcassets */; };
+		817C9A3E20379BA3008DD5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817C9A3C20379BA3008DD5D5 /* LaunchScreen.storyboard */; };
+		817C9A4D20379C02008DD5D5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817C9A4B20379C02008DD5D5 /* SWRevealViewController.m */; };
+		817C9A4F20379C8D008DD5D5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C9A4E20379C8D008DD5D5 /* ChatVC.swift */; };
+		817C9A5220379CA2008DD5D5 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C9A5120379CA2008DD5D5 /* FirstVC.swift */; };
+		817C9A542037A065008DD5D5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C9A532037A065008DD5D5 /* GradientView.swift */; };
+		817C9A582037A419008DD5D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C9A572037A419008DD5D5 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81575121203A24510051CCB4 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		81575123203A24710051CCB4 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		817C9A3020379BA3008DD5D5 /* FridayChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FridayChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817C9A3320379BA3008DD5D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		817C9A3820379BA3008DD5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		817C9A3A20379BA3008DD5D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		817C9A3D20379BA3008DD5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		817C9A3F20379BA3008DD5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817C9A4A20379C01008DD5D5 /* FridayChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FridayChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		817C9A4B20379C02008DD5D5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		817C9A4C20379C02008DD5D5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		817C9A4E20379C8D008DD5D5 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		817C9A5120379CA2008DD5D5 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		817C9A532037A065008DD5D5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		817C9A572037A419008DD5D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817C9A2D20379BA3008DD5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817C9A2720379BA3008DD5D5 = {
+			isa = PBXGroup;
+			children = (
+				817C9A3220379BA3008DD5D5 /* FridayChat */,
+				817C9A3120379BA3008DD5D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		817C9A3120379BA3008DD5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				817C9A3020379BA3008DD5D5 /* FridayChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817C9A3220379BA3008DD5D5 /* FridayChat */ = {
+			isa = PBXGroup;
+			children = (
+				817C9A4920379BE3008DD5D5 /* Model */,
+				817C9A4820379BDB008DD5D5 /* View */,
+				817C9A4720379BD0008DD5D5 /* Controller */,
+				817C9A4620379BC7008DD5D5 /* Supporting Files */,
+				817C9A4520379BB6008DD5D5 /* Utilities */,
+				817C9A3320379BA3008DD5D5 /* AppDelegate.swift */,
+				817C9A3720379BA3008DD5D5 /* Main.storyboard */,
+				817C9A3A20379BA3008DD5D5 /* Assets.xcassets */,
+				817C9A3C20379BA3008DD5D5 /* LaunchScreen.storyboard */,
+				817C9A3F20379BA3008DD5D5 /* Info.plist */,
+			);
+			path = FridayChat;
+			sourceTree = "<group>";
+		};
+		817C9A4520379BB6008DD5D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				817C9A572037A419008DD5D5 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		817C9A4620379BC7008DD5D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817C9A4C20379C02008DD5D5 /* SWRevealViewController.h */,
+				817C9A4B20379C02008DD5D5 /* SWRevealViewController.m */,
+				817C9A4A20379C01008DD5D5 /* FridayChat-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		817C9A4720379BD0008DD5D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				817C9A4E20379C8D008DD5D5 /* ChatVC.swift */,
+				817C9A5120379CA2008DD5D5 /* FirstVC.swift */,
+				81575121203A24510051CCB4 /* LogInVC.swift */,
+				81575123203A24710051CCB4 /* CreateAccountVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		817C9A4820379BDB008DD5D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				817C9A532037A065008DD5D5 /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		817C9A4920379BE3008DD5D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		817C9A2F20379BA3008DD5D5 /* FridayChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817C9A4220379BA3008DD5D5 /* Build configuration list for PBXNativeTarget "FridayChat" */;
+			buildPhases = (
+				817C9A2C20379BA3008DD5D5 /* Sources */,
+				817C9A2D20379BA3008DD5D5 /* Frameworks */,
+				817C9A2E20379BA3008DD5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FridayChat;
+			productName = FridayChat;
+			productReference = 817C9A3020379BA3008DD5D5 /* FridayChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817C9A2820379BA3008DD5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kashfi Fahim";
+				TargetAttributes = {
+					817C9A2F20379BA3008DD5D5 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 817C9A2B20379BA3008DD5D5 /* Build configuration list for PBXProject "FridayChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817C9A2720379BA3008DD5D5;
+			productRefGroup = 817C9A3120379BA3008DD5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				817C9A2F20379BA3008DD5D5 /* FridayChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817C9A2E20379BA3008DD5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817C9A3E20379BA3008DD5D5 /* LaunchScreen.storyboard in Resources */,
+				817C9A3B20379BA3008DD5D5 /* Assets.xcassets in Resources */,
+				817C9A3920379BA3008DD5D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817C9A2C20379BA3008DD5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817C9A5220379CA2008DD5D5 /* FirstVC.swift in Sources */,
+				817C9A4F20379C8D008DD5D5 /* ChatVC.swift in Sources */,
+				81575124203A24710051CCB4 /* CreateAccountVC.swift in Sources */,
+				817C9A542037A065008DD5D5 /* GradientView.swift in Sources */,
+				81575122203A24510051CCB4 /* LogInVC.swift in Sources */,
+				817C9A582037A419008DD5D5 /* Constants.swift in Sources */,
+				817C9A3420379BA3008DD5D5 /* AppDelegate.swift in Sources */,
+				817C9A4D20379C02008DD5D5 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		817C9A3720379BA3008DD5D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817C9A3820379BA3008DD5D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		817C9A3C20379BA3008DD5D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817C9A3D20379BA3008DD5D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817C9A4020379BA3008DD5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		817C9A4120379BA3008DD5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		817C9A4320379BA3008DD5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYA9T3Q2ZS;
+				INFOPLIST_FILE = FridayChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashfifahim.FridayChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FridayChat/Supporting Files/FridayChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		817C9A4420379BA3008DD5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYA9T3Q2ZS;
+				INFOPLIST_FILE = FridayChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashfifahim.FridayChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FridayChat/Supporting Files/FridayChat-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817C9A2B20379BA3008DD5D5 /* Build configuration list for PBXProject "FridayChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817C9A4020379BA3008DD5D5 /* Debug */,
+				817C9A4120379BA3008DD5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817C9A4220379BA3008DD5D5 /* Build configuration list for PBXNativeTarget "FridayChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817C9A4320379BA3008DD5D5 /* Debug */,
+				817C9A4420379BA3008DD5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817C9A2820379BA3008DD5D5 /* Project object */;
+}
